@@ -12,4 +12,5 @@ export const client = new AtomClient(ReadCommandFiles(), {
 
 SyncSlashCommands(rest, client);
 ReadEventFiles(client);
+
 client.login(process.env.TOKEN);
