@@ -10,6 +10,7 @@ export const event: ClientEvent = {
       status: "online",
     });
 
-    console.log(`meow ${client.user.tag}`);
+    // TODO: use chalk
+    console.log(`Logged in as ${client.user.tag}`);
   },
 };
